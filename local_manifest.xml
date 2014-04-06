@@ -13,7 +13,7 @@
   <remote  name="kernel.org"
     fetch="git://git.kernel.org/pub/scm" />
     
-    <remote  name="ivan"
+  <remote  name="ivan"
     fetch="https://github.com/ivanmeler" />
  
   <project path="kernel/sony/nanhu" name="android_kernel_sony_msm7x27a" remote="ivan" revision="nanhu/cm-11.0" />
