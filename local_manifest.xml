@@ -12,8 +12,11 @@
  
   <remote  name="kernel.org"
     fetch="git://git.kernel.org/pub/scm" />
+    
+    <remote  name="ivan"
+    fetch="https://github.com/ivanmeler" />
  
-  <project path="kernel/sony/nanhu" name="android_kernel_sony_msm7x27a" remote="mk" revision="nanhu/cm-11.0" />
+  <project path="kernel/sony/nanhu" name="android_kernel_sony_msm7x27a" remote="ivan" revision="nanhu/cm-11.0" />
   <project path="kernel/sony/external/compat-wireless" name="android_external_compat-wireless" remote="mk" revision="sony" />
   <project path="kernel/backports" name="android_kernel_backports" remote="mk" revision="nanhu/cm-11.0" />
  
