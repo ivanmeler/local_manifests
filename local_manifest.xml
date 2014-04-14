@@ -3,70 +3,49 @@
  
   <remote  name="tamsuicm11"
    fetch="https://github.com/TamsuiCM11" />
- 
   <remote  name="mk"
     fetch="https://github.com/der-koenig" />
- 
   <remote  name="googlecode"
     fetch="https://code.google.com/p" />
- 
   <remote  name="kernel.org"
     fetch="git://git.kernel.org/pub/scm" />
-    
   <remote  name="ivan"
     fetch="https://github.com/ivanmeler" />
- 
   <project path="kernel/sony/nanhu" name="android_kernel_sony_msm7x27a" remote="ivan" revision="nanhu/cm-11.0" />
   <project path="kernel/sony/external/compat-wireless" name="android_external_compat-wireless" remote="mk" revision="sony" />
   <project path="kernel/backports" name="android_kernel_backports" remote="mk" revision="nanhu/cm-11.0" />
- 
   <project path="device/qcom/common" name="android_device_qcom_common" remote="mk" revision="codeaurora-cm" />
   <project path="device/sony/tamsui-common" name="android_device_sony_tamsui-common" remote="mk" revision="cm-11.0" />
   <project path="device/sony/nanhu" name="android_device_sony_nanhu_ds" remote="mk" revision="nanhu_ss/cm-11.0" />
   <project path="device/sony/nanhu_ds" name="android_device_sony_nanhu_ds" remote="mk" revision="nanhu_ds/cm-11.0" />
- 
   <remove-project name="CyanogenMod/android_bionic" />
   <project path="bionic" name="android_bionic" remote="mk" revision="nanhu/cm-11.0" />
- 
   <remove-project name="CyanogenMod/android_external_bluetooth_bluedroid" />
   <project path="external/bluetooth/bluez" name="android_external_bluetooth_bluez" remote="mk" revision="nanhu/cm-11.0" />
   <project path="external/bluetooth/glib" name="aosp-bluez.glib" remote="googlecode" revision="master" />
   <project path="external/bluetooth/sbc" name="bluetooth/sbc" remote="kernel.org" revision="master" />
- 
   <project path="hardware/qcom/display-legacy" name="android_hardware_qcom_display-legacy" remote="mk" revision="nanhu/cm-11.0" />
   <project path="hardware/qcom/audio-legacy" name="android_hardware_qcom_audio-legacy" remote="tamsuicm11" revision="cm-11.0" />
   <project path="hardware/qcom/media-legacy" name="android_hardware_qcom_media-legacy" remote="tamsuicm11" revision="cm-11.0" />
   <project path="hardware/atheros/wlan" name="CyanogenMod/android_hardware_atheros_wlan" revision="jellybean" />
- 
   <remove-project name="CyanogenMod/android_bootable_recovery" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="mk" revision="nanhu/twrp" />
- 
   <remove-project name="CyanogenMod/android_system_core" />
   <project path="system/core" name="android_system_core" remote="mk" revision="nanhu/cm-11.0" />
- 
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="mk" revision="nanhu/cm-11.0" />
- 
   <remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="mk" revision="nanhu/cm-11.0" />
- 
   <remove-project name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/base" name="android_frameworks_base" remote="mk" revision="nanhu/cm-11.0" />
- 
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <project path="frameworks/av" name="android_frameworks_av" remote="mk" revision="nanhu/cm-11.0" />
- 
   <remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="mk" revision="nanhu/cm-11.0" />
- 
   <project path="packages/apps/FM" name="android_packages_apps_FM" remote="mk" revision="cm-11.0" />
- 
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mk" revision="nanhu/cm-11.0" />
- 
   <remove-project name="CyanogenMod/android_packages_services_Telephony" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="mk" revision="nanhu/cm-11.0" />
- 
   <project path="vendor/sony/nanhu" name="proprietary_vendor_sony_nanhu" remote="mk" revision="cm-11.0" />
- 
 </manifest>
