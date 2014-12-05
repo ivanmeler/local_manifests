@@ -5,11 +5,11 @@
 		<remove-project name="CyanogenMod/android_hardware_ril" />
 		<project name="ArchiDroid/android_hardware_ril" path="hardware/ril" remote="github" />
 		<remove-project name="CyanogenMod/android_frameworks_av" />
-		<project name="UtkarshGupta/android_frameworks_av" path="frameworks/av" remote="github" />
+		<project name="ivanmeler/android_frameworks_av" path="frameworks/av" remote="github" />
 		<remove-project name="CyanogenMod/android_frameworks_base" />
-		<project name="UtkarshGupta/android_frameworks_base" path="frameworks/base" remote="github" />
+		<project name="ivanmeler/android_frameworks_base" path="frameworks/base" remote="github" />
 		<remove-project name="CyanogenMod/android_frameworks_native" />
-		<project name="UtkarshGupta/android_frameworks_native" path="frameworks/native" remote="github" />
+		<project name="ivanmeler/android_frameworks_native" path="frameworks/native" remote="github" />
 		<remove-project name="CyanogenMod/android_frameworks_opt_net_wifi" />
 		<project name="ArchiDroid/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" />
 		<remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
