@@ -33,5 +33,5 @@
 			<remove-project name="CyanogenMod/android_hardware_samsung" />
 			<project name="ArchiDroid/android_hardware_samsung" path="hardware/samsung" remote="github" />
 			<remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos4" />
-			<project name="ArchiDroid/android_hardware_samsung_slsi_exynos4" path="hardware/samsung_slsi/exynos4" remote="github" />
+			<project name="ivanmeler/android_hardware_samsung_slsi_exynos4" path="hardware/samsung_slsi/exynos4" remote="github" />
 </manifest>
