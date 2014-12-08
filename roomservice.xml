@@ -35,6 +35,6 @@
 			<remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos4" />
 			<project name="ArchiDroid/android_hardware_samsung_slsi_exynos4" path="hardware/samsung_slsi/exynos4" remote="github" />
 
-      <remove-project name="CyanogenMod/android_packages_apps_Browser" />
+                        <remove-project name="CyanogenMod/android_packages_apps_Browser" />
 			<project name="ivanmeler/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" />
 </manifest>
