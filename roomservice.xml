@@ -1,38 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="CyanogenMod/android_hardware_libhardware" /> 
-  <project name="ArchiDroid/android_hardware_libhardware" path="hardware/libhardware" remote="github" /> 
-  <remove-project name="CyanogenMod/android_hardware_ril" /> 
-  <project name="ArchiDroid/android_hardware_ril" path="hardware/ril" remote="github" /> 
-  <remove-project name="CyanogenMod/android_frameworks_av" /> 
-  <project name="ivanmeler/android_frameworks_av" path="frameworks/av" remote="github" /> 
-  <remove-project name="CyanogenMod/android_frameworks_base" /> 
-  <project name="ivanmeler/android_frameworks_base" path="frameworks/base" remote="github" /> 
-  <remove-project name="CyanogenMod/android_frameworks_native" /> 
-  <project name="ivanmeler/android_frameworks_native" path="frameworks/native" remote="github" /> 
-  <remove-project name="CyanogenMod/android_frameworks_opt_net_wifi" /> 
-  <project name="ArchiDroid/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" /> 
-  <remove-project name="CyanogenMod/android_frameworks_opt_telephony" /> 
-  <project name="ArchiDroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" /> 
-  <project name="CyanogenMod/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" /> 
-  <project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" /> 
-  <project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" /> 
-  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" /> 
-  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" /> 
-  <project name="CyanogenMod/android_hardware_samsung_slsi_exynos4" path="hardware/samsung_slsi/exynos4" remote="github" /> 
-  <project name="ArchiDroid/proprietary_vendor_samsung" path="vendor/samsung" remote="github" /> 
-  <remove-project name="CyanogenMod/android_device_samsung_i9300" /> 
-  <project name="ArchiDroid/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" /> 
-  <project name="ivanmeler/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" /> 
-  <remove-project name="CyanogenMod/android_device_samsung_smdk4412-common" /> 
-  <project name="ArchiDroid/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" /> 
-  <remove-project name="CyanogenMod/android_kernel_samsung_smdk4412" /> 
-  <project name="ivanmeler/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" /> 
-  <remove-project name="CyanogenMod/android_packages_apps_SamsungServiceMode" /> 
-  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" /> 
-  <remove-project name="CyanogenMod/android_hardware_samsung" /> 
-  <project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" /> 
-  <remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos4" /> 
-  <project name="ArchiDroid/android_hardware_samsung_slsi_exynos4" path="hardware/samsung_slsi/exynos4" remote="github" /> 
-  <remove-project name="CyanogenMod/android_packages_apps_Browser" /> 
-  <project name="ivanmeler/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" /> 
-  </manifest>
+		<remove-project name="CyanogenMod/android_hardware_libhardware" />
+		<project name="ArchiDroid/android_hardware_libhardware" path="hardware/libhardware" remote="github" />
+		<remove-project name="CyanogenMod/android_hardware_ril" />
+		<project name="ArchiDroid/android_hardware_ril" path="hardware/ril" remote="github" />
+		<remove-project name="CyanogenMod/android_frameworks_av" />
+		<project name="ivanmeler/android_frameworks_av" path="frameworks/av" remote="github" />
+		<remove-project name="CyanogenMod/android_frameworks_base" />
+		<project name="ivanmeler/android_frameworks_base" path="frameworks/base" remote="github" />
+		<remove-project name="CyanogenMod/android_frameworks_native" />
+		<project name="ivanmeler/android_frameworks_native" path="frameworks/native" remote="github" />
+		<remove-project name="CyanogenMod/android_frameworks_opt_net_wifi" />
+		<project name="ArchiDroid/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" />
+		<remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
+		<project name="ArchiDroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" />
+			<project name="CyanogenMod/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" />
+			<project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
+			<project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
+			<project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
+			<project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
+			<project name="CyanogenMod/android_hardware_samsung_slsi_exynos4" path="hardware/samsung_slsi/exynos4" remote="github" />
+			<project name="ArchiDroid/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
+			<remove-project name="CyanogenMod/android_device_samsung_i9300" />
+			<project name="ArchiDroid/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" />
+                        <project name="ivanmeler/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" />
+			<remove-project name="CyanogenMod/android_device_samsung_smdk4412-common" />
+			<project name="ArchiDroid/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
+			<remove-project name="CyanogenMod/android_kernel_samsung_smdk4412" />
+			<project name="ivanmeler/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
+			<remove-project name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
+			<project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
+			<remove-project name="CyanogenMod/android_hardware_samsung" />
+			<project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" />
+			<remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos4" />
+			<project name="ArchiDroid/android_hardware_samsung_slsi_exynos4" path="hardware/samsung_slsi/exynos4" remote="github" />
+
+      <remove-project name="CyanogenMod/android_packages_apps_Browser" />
+			<project name="ivanmeler/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" />
+</manifest>
