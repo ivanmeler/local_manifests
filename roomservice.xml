@@ -13,7 +13,7 @@
 		<remove-project name="CyanogenMod/android_frameworks_native" />
 		<project name="ivanmeler/android_frameworks_native" path="frameworks/native" remote="github" />
 		<remove-project name="CyanogenMod/android_frameworks_opt_net_wifi" />
-		<project name="ArchiDroid/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" />
+		<project name="ivanmeler/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" />
 		<remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
 		<project name="ArchiDroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" />
 			<project name="CyanogenMod/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" />
