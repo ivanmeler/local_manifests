@@ -2,10 +2,6 @@
 <manifest>
 		<remove-project name="CyanogenMod/android_bionic" />
 		<project name="ivanmeler/android_bionic" path="bionic" remote="github" />
-		<remove-project name="CyanogenMod/android_hardware_libhardware" />
-		<project name="ArchiDroid/android_hardware_libhardware" path="hardware/libhardware" remote="github" />
-		<remove-project name="CyanogenMod/android_hardware_ril" />
-		<project name="ArchiDroid/android_hardware_ril" path="hardware/ril" remote="github" />
 		<remove-project name="CyanogenMod/android_frameworks_av" />
 		<project name="ivanmeler/android_frameworks_av" path="frameworks/av" remote="github" />
 		<remove-project name="CyanogenMod/android_frameworks_base" />
@@ -14,8 +10,6 @@
 		<project name="ivanmeler/android_frameworks_native" path="frameworks/native" remote="github" />
 		<remove-project name="CyanogenMod/android_frameworks_opt_net_wifi" />
 		<project name="ivanmeler/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" />
-		<remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-		<project name="ArchiDroid/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" />
 			<project name="CyanogenMod/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" />
 			<project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
 			<project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
