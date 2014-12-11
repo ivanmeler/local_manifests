@@ -22,8 +22,6 @@
 			<project name="ArchiDroid/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
 			<remove-project name="CyanogenMod/android_kernel_samsung_smdk4412" />
 			<project name="ivanmeler/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
-			<remove-project name="CyanogenMod/android_packages_apps_SamsungServiceMode" />
-			<project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
 			<remove-project name="CyanogenMod/android_hardware_samsung" />
 			<project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" />
 			<remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos4" />
