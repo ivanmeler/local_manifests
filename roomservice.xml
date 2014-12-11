@@ -6,8 +6,6 @@
 		<project name="ivanmeler/android_frameworks_av" path="frameworks/av" remote="github" />
 		<remove-project name="CyanogenMod/android_frameworks_base" />
 		<project name="ivanmeler/android_frameworks_base" path="frameworks/base" remote="github" />
-		<remove-project name="CyanogenMod/android_frameworks_native" />
-		<project name="ivanmeler/android_frameworks_native" path="frameworks/native" remote="github" />
 		<remove-project name="CyanogenMod/android_frameworks_opt_net_wifi" />
 		<project name="ivanmeler/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" />
 			<project name="CyanogenMod/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" />
