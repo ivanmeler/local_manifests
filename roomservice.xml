@@ -8,7 +8,6 @@
 		<project name="ivanmeler/android_frameworks_base" path="frameworks/base" remote="github" />
 		<remove-project name="CyanogenMod/android_frameworks_opt_net_wifi" />
 		<project name="ivanmeler/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" />
-			<project name="CyanogenMod/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" />
 			<project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
 			<project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
 			<project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
@@ -24,7 +23,6 @@
 			<project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" />
 			<remove-project name="CyanogenMod/android_hardware_samsung_slsi_exynos4" />
 			<project name="ArchiDroid/android_hardware_samsung_slsi_exynos4" path="hardware/samsung_slsi/exynos4" remote="github" />
-
                         <remove-project name="CyanogenMod/android_packages_apps_Browser" />
 			<project name="ivanmeler/android_packages_apps_Browser" path="packages/apps/Browser" remote="github" />
 </manifest>
