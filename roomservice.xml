@@ -8,10 +8,6 @@
 		<project name="ivanmeler/android_frameworks_base" path="frameworks/base" remote="github" />
 		<remove-project name="CyanogenMod/android_frameworks_native" />
 		<project name="ivanmeler/android_frameworks_native" path="frameworks/native" remote="github" />
-		<remove-project name="CyanogenMod/android_frameworks_opt_net_wifi" />
-		<project name="ivanmeler/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" />
-		<remove-project name="CyanogenMod/android_frameworks_opt_telephony" />
-		<project name="ivanmeler/android_frameworks_opt_telephony" path="frameworks/opt/telephony" remote="github" />
 			<project name="CyanogenMod/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" />
 			<project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
 			<project name="CyanogenMod/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
