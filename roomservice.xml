@@ -24,4 +24,6 @@
 			<project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" />
 			<remove-project name="CyanogenMod/android_kernel_samsung_smdk4412" />
 			<project name="ivanmeler/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
+		<remove-project name="CyanogenMod/android_frameworks_opt_net_wifi" />
+		<project name="ivanmeler/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" />
 </manifest>
