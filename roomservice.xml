@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<manifest>
 		<remove-project name="CyanogenMod/android_bionic" />
 		<project name="ivanmeler/android_bionic" path="bionic" remote="github" />
 		<remove-project name="CyanogenMod/android_frameworks_av" />
@@ -20,10 +19,8 @@
 			<project name="ivanmeler/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" />
 			<remove-project name="CyanogenMod/android_device_samsung_smdk4412-common" />
 			<project name="ivanmeler/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
-			<remove-project name="CyanogenMod/android_hardware_samsung" />
-			<project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" />
 			<remove-project name="CyanogenMod/android_kernel_samsung_smdk4412" />
 			<project name="ivanmeler/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" />
-		<remove-project name="CyanogenMod/android_frameworks_opt_net_wifi" />
-		<project name="ivanmeler/android_frameworks_opt_net_wifi" path="frameworks/opt/net/wifi" remote="github" />
+			<remove-project name="CyanogenMod/android_hardware_samsung" />
+			<project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" />
 </manifest>
