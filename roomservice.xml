@@ -7,15 +7,15 @@
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <project name="ivanmeler/android_frameworks_native" path="frameworks/native" remote="private" />
   <project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
+  <remove-project name="CyanogenMod/android_device_samsung_smdk4412-common" />
+  <project name="ivanmeler/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="private" />
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
-  <project name="ivanmeler/proprietary_vendor_samsung" path="vendor/samsung" remote="private" revision="cm-private" />
-  <project name="ivanmeler/android_device_samsung_n7100" path="device/samsung/n7100" remote="private" revision="cm-12.0" />
-  <remove-project name="CyanogenMod/android_device_samsung_smdk4412-common" />
-  <project name="ivanmeler/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="private" revision="cm-12.0" />
-  <project name="ivanmeler/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="private" revision="cm-12.0" />
   <remove-project name="CyanogenMod/android_hardware_samsung" />
-  <project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="private" revision="cm-12.1" />
+  <project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="private" />
+  <project name="ivanmeler/proprietary_vendor_samsung" path="vendor/samsung" remote="private" revision="private" />
+  <project name="ivanmeler/android_device_samsung_n7100" path="device/samsung/n7100" remote="private" />
+  <project name="ivanmeler/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="private" revision="cm-12.0" />
   <remove-project name="CyanogenMod/android_packages_apps_Settings" />
   <project name="ivanmeler/android_packages_apps_Settings" path="packages/apps/Settings" remote="private" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
