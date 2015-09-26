@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="CyanogenMod/android_bionic" />
-  <project name="ivanmeler/android_bionic" path="bionic" remote="github" />
   <remove-project name="CyanogenMod/android_frameworks_av" />
   <project name="ivanmeler/android_frameworks_av" path="frameworks/av" remote="github" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
