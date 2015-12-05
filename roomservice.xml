@@ -11,7 +11,7 @@
   <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
   <remove-project name="CyanogenMod/android_hardware_samsung" />
   <project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="private" />
-  <project name="Haxynox/proprietary_vendor_samsung" path="vendor/samsung" remote="private" revision="Haxynox" />
+  <project name="Haxynox/proprietary_vendor_samsung" path="vendor/samsung" remote="private" revision="Mmm" />
   <project name="ivanmeler/android_device_samsung_n7100" path="device/samsung/n7100" remote="private" />
   <project name="Haxynox/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="private" revision="Mmm" />
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" />
