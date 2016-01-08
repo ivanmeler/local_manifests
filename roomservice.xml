@@ -15,4 +15,6 @@
   <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <project name="ivanmeler/android_hardware_libhardware" path="hardware/libhardware" remote="private" />
+  <!--Snap camera app-->
+  <project path="packages/apps/Snap" name="CyanogenMod/android_packages_apps_Snap" />
 </manifest>
