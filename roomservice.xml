@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+  <remove-project name="CyanogenMod/android_frameworks_av" />
+  <project name="ivanmeler/android_frameworks_av" path="frameworks/av" remote="private" />
   <remove-project name="CyanogenMod/android_frameworks_native" />
   <project name="ivanmeler/android_frameworks_native" path="frameworks/native" remote="private" />
   <project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
