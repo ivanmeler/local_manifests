@@ -13,7 +13,7 @@
   <project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" />
   <project name="ivanmeler/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.1" />
   <project name="ivanmeler/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" />
-  <project name="Haxynox/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="Mmm-new" />
+  <project name="Haxynox/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="Mmm" />
   <remove-project name="CyanogenMod/android_hardware_libhardware" />
   <project name="ivanmeler/android_hardware_libhardware" path="hardware/libhardware" remote="github" />
 </manifest>
