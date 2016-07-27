@@ -334,7 +334,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" />
-  <project path="frameworks/av" name="ivanmeler/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/av" name="ivanmeler/android_frameworks_av" revision="cm-12.1" groups="pdk" />
   <project path="frameworks/base" name="CyanogenMod/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
@@ -344,7 +344,7 @@
   <project path="frameworks/minikin" name="CyanogenMod/android_frameworks_minikin" groups="pdk-cw-fs" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" />
   <project path="frameworks/multidex" name="CyanogenMod/android_frameworks_multidex" groups="pdk-cw-fs" />
-  <project path="frameworks/native" name="ivanmeler/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="ivanmeler/android_frameworks_native" groups="pdk" revision="cm-12.1" />
   <project path="frameworks/opt/bitmap" name="CyanogenMod/android_frameworks_opt_bitmap" />
   <project path="frameworks/opt/bluetooth" name="CyanogenMod/android_frameworks_opt_bluetooth" groups="pdk-cw-fs" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" />
@@ -391,7 +391,7 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" remote="aosp" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" remote="aosp" />
   <project path="hardware/invensense" name="CyanogenMod/android_hardware_invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="ivanmeler/android_hardware_libhardware" groups="pdk" />
+  <project path="hardware/libhardware" name="ivanmeler/android_hardware_libhardware" groups="pdk" revision="cm-12.1" />
   <project path="hardware/libhardware_legacy" name="CyanogenMod/android_hardware_libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="CyanogenMod/android_hardware_nvidia_audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="CyanogenMod/android_hardware_nvidia_tegra124" groups="tegra124" />
@@ -583,10 +583,10 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
   <project path="vendor/cm" name="CyanogenMod/android_vendor_cm" />
   <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
-  <project name="ivanmeler/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
-  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
-  <project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <project name="ivanmeler/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" revision="cm-12.1" remote="github" />
+  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" revision="cm-12.1" remote="github" />
+  <project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.1" />
   <project name="ivanmeler/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="cm-12.1" />
-  <project name="ivanmeler/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" />
+  <project name="ivanmeler/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" revision="cm-12.1" />
   <project name="Haxynox/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="Mmm" />
 </manifest>
