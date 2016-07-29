@@ -2,4 +2,4 @@ local_manifests
 ===============
 GT-N7100
 
-This goes in /android/system/.repo/local_manifests/roomservice.xml
+repo init -u https://github.com/ivanmeler/local_manifests.git -b 12.1-final
