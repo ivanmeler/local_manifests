@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="CyanogenMod/android_frameworks_av" />
-  <project name="ivanmeler/android_frameworks_av" path="frameworks/av" remote="github" />
-  <remove-project name="CyanogenMod/android_frameworks_native" />
-  <project name="ivanmeler/android_frameworks_native" path="frameworks/native" remote="github" />
-  <project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
-  <remove-project name="CyanogenMod/android_device_samsung_smdk4412-common" />
-  <project name="ivanmeler/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
-  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
-  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
-  <remove-project name="CyanogenMod/android_hardware_samsung" />
-  <project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" />
-  <project name="Haxynox/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="Mmm" />
-  <project name="ivanmeler/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" />
-  <project name="Haxynox/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="Mmm" />
-  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" />
-  <remove-project name="CyanogenMod/android_hardware_libhardware" />
-  <project name="ivanmeler/android_hardware_libhardware" path="hardware/libhardware" remote="github" />
+  <!-- Tracked/custom repos -->
+  <project name="ivanmeler/android_device_samsung_zero-common" path="device/samsung/zero-common" remote="github" />
+  <project name="ivanmeler/android_device_samsung_zeroltexx" path="device/samsung/zeroltexx" remote="github" />
+  <project name="ivanmeler/android_kernel_samsung_exynos7420" path="kernel/samsung/exynos7420" remote="github" />
+  <!-- Lineage -->
+  <project name="TheMuppets/proprietary_vendor_samsung" path="vendor/samsung" remote="github" />
+  <project name="lineageOS/android_external_stlport" path="external/stlport" remote="github" />
+  <project name="lineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <project name="lineageOS/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" />
+  <project name="lineageOS/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" />
+  <project name="lineageOS/android_hardware_samsung_slsi-cm_exynos7420" path="hardware/samsung_slsi-cm/exynos7420" remote="github" />
+  <project name="lineageOS/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" />
 </manifest>
