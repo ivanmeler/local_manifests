@@ -1,5 +1,5 @@
 local_manifests
 ===============
-GT-N7100
+SM-G93XX
 
 This goes in /android/system/.repo/local_manifests/roomservice.xml
