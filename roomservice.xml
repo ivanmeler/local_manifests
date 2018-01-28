@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remove-project name="CyanogenMod/android_frameworks_av" />
-  <project name="ivanmeler/android_frameworks_av" path="frameworks/av" remote="github" />
-  <remove-project name="CyanogenMod/android_frameworks_native" />
-  <project name="ivanmeler/android_frameworks_native" path="frameworks/native" remote="github" />
-  <project name="CyanogenMod/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
-  <remove-project name="CyanogenMod/android_device_samsung_smdk4412-common" />
-  <project name="ivanmeler/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" />
-  <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" />
-  <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" />
-  <remove-project name="CyanogenMod/android_hardware_samsung" />
-  <project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" />
-  <project name="Haxynox/proprietary_vendor_samsung" path="vendor/samsung" remote="github" revision="Mmm" />
-  <project name="ivanmeler/android_device_samsung_n7100" path="device/samsung/n7100" remote="github" />
-  <project name="Haxynox/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="Mmm" />
-  <project name="CyanogenMod/android_external_stlport" path="external/stlport" remote="github" />
-  <remove-project name="CyanogenMod/android_hardware_libhardware" />
-  <project name="ivanmeler/android_hardware_libhardware" path="hardware/libhardware" remote="github" />
+  <!--Device tree-->
+  <project name="ivanmeler/android_device_samsung_hero2lte" path="device/samsung/hero2lte" remote="github" revision="lineage-15.0"/>
+  <project name="ivanmeler/android_device_samsung_herolte" path="device/samsung/herolte" remote="github" revision="lineage-15.0"/>
+  <project name="ivanmeler/android_device_samsung_hero-common" path="device/samsung/hero-common" remote="github" revision="lineage-15.1-nk"/>
+  <!--Hardware-->
+  <project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1"/>
+  <project name="ivanmeler/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" revision="lineage-15.1"/>
+  <project name="ivanmeler/android_hardware_samsung_slsi-cm_exynos8890" path="hardware/samsung_slsi-cm/exynos8890" remote="github" revision="lineage-15.1"/>
+  <project name="ivanmeler/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="lineage-15.1"/>
+  <project name="ivanmeler/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="lineage-15.0"/>
+  <!--Kernel-->
+  <project name="ivanmeler/android_kernel_samsung_universal8890" path="kernel/samsung/universal8890" remote="github" revision="lineage-15.1"/>
+  <project name="ivanmeler/kernel_samsung_universal8890" path="kernel/samsung/exynos8890" remote="github" revision="lineage-15.1"/>
+  <!--Blobs-->
+  <project name="ivanmeler/proprietary_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github" revision="lineage-15.1"/>
+  <!--Linaro Toolchain-->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-linaro" name="ivanmeler/linaro" clone-depth="1" revision="master" remote="github"/>
 </manifest>
