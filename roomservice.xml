@@ -1,18 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--
+===============================================================================
+=  frameworks/native -> git revert 8cbefd7af4801686c27d5802cfd087b2812110b6   =
+===============================================================================
+Actually that revert might not be needed anymore, Needs further testing tho
+-->
 <manifest>
   <!--Device tree-->
-  <project name="ivanmeler/android_device_samsung_hero2lte" path="device/samsung/hero2lte" remote="github" revision="lineage-15.0"/>
-  <project name="ivanmeler/android_device_samsung_herolte" path="device/samsung/herolte" remote="github" revision="lineage-15.0"/>
-  <project name="ivanmeler/android_device_samsung_hero-common" path="device/samsung/hero-common" remote="github" revision="lineage-15.1-nk"/>
+  <project name="ivanmeler/android_device_samsung_hero2lte" path="device/samsung/hero2lte" remote="github" revision="lineage-15.1"/>
+  <project name="ivanmeler/android_device_samsung_herolte" path="device/samsung/herolte" remote="github" revision="lineage-15.1"/>
+  <project name="Haxynox/seals_something_anotherhing" path="device/samsung/hero-common" remote="github" revision="sdfat"/>
   <!--Hardware-->
   <project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1"/>
   <project name="ivanmeler/android_hardware_samsung_slsi-cm_openmax" path="hardware/samsung_slsi-cm/openmax" remote="github" revision="lineage-15.1"/>
   <project name="ivanmeler/android_hardware_samsung_slsi-cm_exynos8890" path="hardware/samsung_slsi-cm/exynos8890" remote="github" revision="lineage-15.1"/>
   <project name="ivanmeler/android_hardware_samsung_slsi-cm_exynos5" path="hardware/samsung_slsi-cm/exynos5" remote="github" revision="lineage-15.1"/>
-  <project name="ivanmeler/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="lineage-15.0"/>
+  <project name="ivanmeler/android_hardware_samsung_slsi-cm_exynos" path="hardware/samsung_slsi-cm/exynos" remote="github" revision="lineage-15.1"/>
   <!--Kernel-->
-  <project name="ivanmeler/android_kernel_samsung_universal8890" path="kernel/samsung/universal8890" remote="github" revision="lineage-15.1"/>
-  <project name="ivanmeler/kernel_samsung_universal8890" path="kernel/samsung/exynos8890" remote="github" revision="lineage-15.1"/>
+  <project name="ivanmeler/android_kernel_samsung_universal8890" path="kernel/samsung/universal8890" remote="github" revision="sdfat"/>
   <!--Blobs-->
   <project name="ivanmeler/proprietary_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github" revision="lineage-15.1"/>
   <!--Linaro Toolchain-->
