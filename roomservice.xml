@@ -3,11 +3,12 @@
   <!--Device tree-->
   <project name="ivanmeler/android_device_samsung_hero2lte" path="device/samsung/hero2lte" remote="github" revision="lineage-15.1"/>
   <project name="ivanmeler/android_device_samsung_herolte" path="device/samsung/herolte" remote="github" revision="lineage-15.1"/>
-  <project name="Haxynox/seals_something_anotherhing" path="device/samsung/hero-common" remote="github" revision="lineage-15.1-bsp"/>
+  <project name="Haxynox/seals_something_anotherhing" path="device/samsung/hero-common" remote="github" revision="15.1-no-bsp"/>
   <!--Hardware-->
   <project name="ivanmeler/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-15.1"/>
   <!--Kernel-->
   <project name="ivanmeler/android_kernel_samsung_herolte" path="kernel/samsung/universal8890" remote="github" revision="ERG2"/>
   <!--Blobs-->
   <project name="ivanmeler/proprietary_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github" revision="lineage-15.1"/>
+  <project name="ivanmeler/proprietary_vendor_seal" path="vendor/seal/seal" remote="github" revision="master"/>
 </manifest>
