@@ -7,7 +7,7 @@
   <!--Hardware-->
   <project name="8890q/android_hardware_samsung" path="hardware/samsung" remote="github"/>
   <!--Kernel-->
-  <project name="ivanmeler/android_kernel_samsung_herolte" path="kernel/samsung/universal8890" remote="private" revision="lineage-17.0"/>
+  <project name="ivanmeler/android_kernel_samsung_herolte" path="kernel/samsung/universal8890" remote="github" revision="lineage-17.0"/>
   <!--Blobs-->
   <project name="8890q/proprietary_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github"/>
   <!--Samsung S.LSI BSP-->
