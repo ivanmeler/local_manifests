@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!--Device tree-->
-  <project name="8890q/android_device_samsung_hero2lte" path="device/samsung/hero2lte" remote="github"/>
-  <project name="8890q/android_device_samsung_herolte" path="device/samsung/herolte" remote="github"/>
-  <project name="8890q/android_device_samsung_hero-common" path="device/samsung/hero-common" remote="github"/>
+  <project name="8890q/android_device_samsung_hero2lte" path="device/samsung/hero2lte" revision="lineage-17.1" remote="github"/>
+  <project name="8890q/android_device_samsung_herolte" path="device/samsung/herolte" revision="lineage-17.1" remote="github"/>
+  <project name="8890q/android_device_samsung_universal8890-common" path="device/samsung/universal8890-common" revision="lineage-17.1" remote="github"/>
   <!--Hardware-->
-  <project name="8890q/android_hardware_samsung" path="hardware/samsung" remote="github"/>
+  <project name="lineageos/android_hardware_samsung" path="hardware/samsung" remote="github"/>
   <!--Kernel-->
-  <project name="ivanmeler/android_kernel_samsung_herolte" path="kernel/samsung/universal8890" remote="github" revision="lineage-17.0"/>
+  <project name="8890q/android_kernel_samsung_universal8890" path="kernel/samsung/universal8890" revision="lineage-17.1-stable" remote="github"/>
   <!--Blobs-->
-  <project name="8890q/proprietary_vendor_samsung_hero-common" path="vendor/samsung/hero-common" remote="github"/>
-  <!--Samsung S.LSI BSP-->
-  <project name="8890q/proprietary_vendor_seal_seal" path="vendor/seal/seal" remote="github"/>
+  <project name="8890q/proprietary_vendor_samsung_universal889-common" path="vendor/samsung/universal8890-common" revision="lineage-17.1" remote="github"/>
+  <project name="8890q/proprietary_vendor_samsung_herolte" path="vendor/samsung/herolte" revision="lineage-17.1" remote="github"/>
+  <project name="8890q/proprietary_vendor_samsung_hero2lte" path="vendor/samsung/hero2lte" revision="lineage-17.1" remote="github"/>
 </manifest>
