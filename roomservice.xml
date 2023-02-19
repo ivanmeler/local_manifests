@@ -2,24 +2,24 @@
 <manifest>
   <!--Device tree-->
   <!--8890-->
-  <project name="8890q/android_device_samsung_hero2lte" path="device/samsung/hero2lte" revision="lineage-20.0" remote="private"/>
-  <project name="8890q/android_device_samsung_herolte" path="device/samsung/herolte" revision="lineage-20.0" remote="private"/>
+  <project name="8890q/android_device_samsung_hero2lte" path="device/samsung/hero2lte" revision="lineage-20.0" remote="github"/>
+  <project name="8890q/android_device_samsung_herolte" path="device/samsung/herolte" revision="lineage-20.0" remote="github"/>
   <!-- grace and gracer will need 2311f695af reverted in kernel, todo: add korean variants-->
-  <project name="8890q/android_device_samsung_gracelte" path="device/samsung/gracelte" revision="lineage-20.0" remote="private"/>
-  <project name="8890q/android_device_samsung_gracerlte" path="device/samsung/gracerlte" revision="lineage-20.0" remote="private"/>
-  <project name="8890q/android_device_samsung_universal8890-common" path="device/samsung/universal8890-common" revision="lineage-20.0" remote="private"/>
+  <project name="8890q/android_device_samsung_gracelte" path="device/samsung/gracelte" revision="lineage-20.0" remote="github"/>
+  <project name="8890q/android_device_samsung_gracerlte" path="device/samsung/gracerlte" revision="lineage-20.0" remote="github"/>
+  <project name="8890q/android_device_samsung_universal8890-common" path="device/samsung/universal8890-common" revision="lineage-20.0" remote="github"/>
   <!--8895-->
-  <project name="8890q/android_device_samsung_dreamlte" path="device/samsung/dreamlte" revision="lineage-20.0" remote="private"/>
-  <project name="8890q/android_device_samsung_dream2lte" path="device/samsung/dream2lte" revision="lineage-20.0" remote="private"/>
-  <project name="8890q/android_device_samsung_greatlte" path="device/samsung/greatlte" revision="lineage-20.0" remote="private"/>
-  <project name="8890q/android_device_samsung_universal8895-common" path="device/samsung/universal8895-common" revision="lineage-20.0" remote="private"/>
+  <project name="8890q/android_device_samsung_dreamlte" path="device/samsung/dreamlte" revision="lineage-20.0" remote="github"/>
+  <project name="8890q/android_device_samsung_dream2lte" path="device/samsung/dream2lte" revision="lineage-20.0" remote="github"/>
+  <project name="8890q/android_device_samsung_greatlte" path="device/samsung/greatlte" revision="lineage-20.0" remote="github"/>
+  <project name="8890q/android_device_samsung_universal8895-common" path="device/samsung/universal8895-common" revision="lineage-20.0" remote="github"/>
   <!--Kernel-->
   <!--8890-->
-  <project name="8890q/android_kernel_samsung_universal8890" path="kernel/samsung/universal8890" revision="lineage-20.0" remote="private"/>
+  <project name="8890q/android_kernel_samsung_universal8890" path="kernel/samsung/universal8890" revision="lineage-20.0" remote="github"/>
   <!--8895-->
-  <project name="8890q/android_kernel_samsung_universal8895" path="kernel/samsung/universal8895" revision="lineage-20.0" remote="private"/>
+  <project name="8890q/android_kernel_samsung_universal8895" path="kernel/samsung/universal8895" revision="lineage-20.0" remote="github"/>
   <!--Blobs-->
-  <project name="8890q/proprietary_vendor_samsung" path="vendor/samsung" revision="lineage-20.0" remote="private"/>
+  <project name="8890q/proprietary_vendor_samsung" path="vendor/samsung" revision="lineage-20.0" remote="github"/>
   <!--Lineage HW repos-->
   <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" revision="lineage-20" remote="github" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" revision="lineage-20" remote="github" />
