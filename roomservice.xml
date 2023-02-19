@@ -4,7 +4,6 @@
   <!--8890-->
   <project name="8890q/android_device_samsung_hero2lte" path="device/samsung/hero2lte" revision="lineage-20.0" remote="github"/>
   <project name="8890q/android_device_samsung_herolte" path="device/samsung/herolte" revision="lineage-20.0" remote="github"/>
-  <!-- grace and gracer will need 2311f695af reverted in kernel, todo: add korean variants-->
   <project name="8890q/android_device_samsung_gracelte" path="device/samsung/gracelte" revision="lineage-20.0" remote="github"/>
   <project name="8890q/android_device_samsung_gracerlte" path="device/samsung/gracerlte" revision="lineage-20.0" remote="github"/>
   <project name="8890q/android_device_samsung_universal8890-common" path="device/samsung/universal8890-common" revision="lineage-20.0" remote="github"/>
