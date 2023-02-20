@@ -5,7 +5,6 @@
   <project name="8890q/android_device_samsung_hero2lte" path="device/samsung/hero2lte" revision="lineage-20.0" remote="github"/>
   <project name="8890q/android_device_samsung_herolte" path="device/samsung/herolte" revision="lineage-20.0" remote="github"/>
   <project name="8890q/android_device_samsung_gracerlte" path="device/samsung/gracerlte" revision="lineage-20.0" remote="github"/>
-  <project name="8890q/android_device_samsung_gracerltekor" path="device/samsung/gracerltekor" revision="lineage-20.0" remote="github"/>
   <project name="8890q/android_device_samsung_universal8890-common" path="device/samsung/universal8890-common" revision="lineage-20.0" remote="github"/>
   <!--8895-->
   <project name="8890q/android_device_samsung_dreamlte" path="device/samsung/dreamlte" revision="lineage-20.0" remote="github"/>
