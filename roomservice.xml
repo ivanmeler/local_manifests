@@ -2,13 +2,13 @@
 <manifest>
   <!--Device tree-->
   <!--8890-->
-  <project name="8890q/android_device_samsung_hero2lte" path="device/samsung/hero2lte" revision="19_otas_priv" remote="github"/>
-  <project name="8890q/android_device_samsung_herolte" path="device/samsung/herolte" revision="19_otas_priv" remote="github"/>
+  <project name="8890q/android_device_samsung_hero2lte" path="device/samsung/hero2lte" revision="lineage-19.1" remote="github"/>
+  <project name="8890q/android_device_samsung_herolte" path="device/samsung/herolte" revision="lineage-19.1" remote="github"/>
   <project name="8890q/android_device_samsung_universal8890-common" path="device/samsung/universal8890-common" revision="lineage-19.1" remote="github"/>
   <!--8895-->
-  <project name="8890q/android_device_samsung_dreamlte" path="device/samsung/dreamlte" revision="19_otas_priv" remote="github"/>
-  <project name="8890q/android_device_samsung_dream2lte" path="device/samsung/dream2lte" revision="19_otas_priv" remote="github"/>
-  <project name="8890q/android_device_samsung_greatlte" path="device/samsung/greatlte" revision="19_otas_priv" remote="github"/>
+  <project name="8890q/android_device_samsung_dreamlte" path="device/samsung/dreamlte" revision="lineage-19.1" remote="github"/>
+  <project name="8890q/android_device_samsung_dream2lte" path="device/samsung/dream2lte" revision="lineage-19.1" remote="github"/>
+  <project name="8890q/android_device_samsung_greatlte" path="device/samsung/greatlte" revision="lineage-19.1" remote="github"/>
   <project name="8890q/android_device_samsung_universal8895-common" path="device/samsung/universal8895-common" revision="lineage-19.1" remote="github"/>
   <!--Kernel-->
   <!--8890-->
