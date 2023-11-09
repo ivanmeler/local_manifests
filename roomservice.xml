@@ -21,4 +21,10 @@
   <!--Lineage HW repos-->
   <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" revision="lineage-20" remote="github" />
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" revision="lineage-20" remote="github" />
+  <!--Linaro BSP-->
+  <project name="8890q/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" revision="lineage-20" remote="github"/>
+  <project name="8890q/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" revision="lineage-20" remote="github"/>
+  <project name="8890q/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" revision="lineage-20" remote="github"/>
+  <project name="8890q/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" revision="lineage-20" remote="github"/>
+  <project name="8890q/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" revision="lineage-20" remote="github"/>
 </manifest>
