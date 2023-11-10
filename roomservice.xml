@@ -18,10 +18,4 @@
   <project name="8890q/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" revision="lineage-19.1" remote="github"/>
   <project name="8890q/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" revision="lineage-19.1" remote="github"/>
   <project name="8890q/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" revision="lineage-19.1" remote="github"/>
-  <!--Linaro BSP-->
-  <project name="8890q/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" revision="lineage-19.1" remote="github"/>
-  <project name="8890q/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" revision="lineage-19.1" remote="github"/>
-  <project name="8890q/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" revision="lineage-19.1" remote="github"/>
-  <project name="8890q/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" revision="lineage-19.1" remote="github"/>
-  <project name="8890q/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" revision="lineage-19.1" remote="github"/>
 </manifest>
